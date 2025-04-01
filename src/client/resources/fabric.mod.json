@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "pearlbot",
+	"version": "${version}",
+	"name": "Pearl Bot",
+	"description": "Fabric implementation of my Mineflayer ender pearl bot. ",
+	"authors": [
+		{
+			"name": "Kreivon",
+			"contact": {
+				"email": "kreivon@proton.me"
+			}
+		}
+	],
+	"contact": {
+		"sources": "https://github.com/kreivon/PearlBot-Fabric",
+		"issues": "https://github.com/kreivon/PearlBot-Fabric/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/pearlbot/pearlbot.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"me.kreivon.pearlbot.PearlBot"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

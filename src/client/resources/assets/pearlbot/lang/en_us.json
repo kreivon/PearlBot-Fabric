@@ -1,0 +1,6 @@
+{
+  "command.pearlbot.incomplete": "Command incomplete!",
+  "command.pearlbot.notinstalled": "PearlBot not installed!",
+  "command.pearlbot.start": "Starting PearlBot!",
+  "command.pearlbot.stop": "Stopping PearlBot!"
+}
